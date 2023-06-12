@@ -111,8 +111,7 @@ void difference(char m1, char m2, int P[], int Q[], int n, int m) { // differenc
     printf("\b\b ");
 }
 
-void sym_diff(char m1, char m2, int n, int m) // symmetrical difference function
-{
+void sym_diff(char m1, char m2, int n, int m) { // symmetrical difference function
     int print = 0;
 
     reunion(m1, m2, n, m);
@@ -151,8 +150,7 @@ void sym_diff(char m1, char m2, int n, int m) // symmetrical difference function
     printf("\b\b \n");
 }
 
-int main()
-{
+int main() {
     int a, b;
 
     printf("Introduce a number of values for set A: ");
